@@ -36,7 +36,7 @@ class ReminderActivity : Activity() {
 
     private var stopState = 0
 
-    private var vibrationPattern = LongArray(256)
+    private var vibrationPattern = LongArray(64)
     private var writeIndex = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
